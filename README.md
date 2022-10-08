@@ -6,8 +6,8 @@ Allow the user to input expenses from their day2day and keep a track of everythi
 
 ### Application Building
 
-1. Get the users input in categories that affect them.
-2. Allow the user to create expenses they want to add
+1. Present to the users their expenses that affect them.
+2. Allow the user to track the expenses with dates, costs, categories, and a description
 3. Create a way to tally together all of the expenses for the user to see.
 
 
