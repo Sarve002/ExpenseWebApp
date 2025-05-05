@@ -7,6 +7,22 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Project3\\app.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\steve\\source\\repos\\ExpenseWebApp-main\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\steve\\source\\repos\\ExpenseWebApp-main\\Project3\\static\\css\\webflow.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Project3\\static\\css\\webflow.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\steve\\source\\repos\\ExpenseWebApp-main\\Project3\\static\\css\\normalize.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Project3\\static\\css\\normalize.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\steve\\source\\repos\\ExpenseWebApp-main\\Project3\\static\\css\\cop4813-webdev-project3.webflow.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Project3\\static\\css\\cop4813-webdev-project3.webflow.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\steve\\source\\repos\\ExpenseWebApp-main\\Project3\\templates\\template.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Project3\\templates\\template.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -34,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,7 +58,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\steve\\source\\repos\\ExpenseWebApp-main\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\steve\\source\\repos\\ExpenseWebApp-main\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-05-05T20:51:40.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "webflow.css",
+              "DocumentMoniker": "C:\\Users\\steve\\source\\repos\\ExpenseWebApp-main\\Project3\\static\\css\\webflow.css",
+              "RelativeDocumentMoniker": "Project3\\static\\css\\webflow.css",
+              "ToolTip": "C:\\Users\\steve\\source\\repos\\ExpenseWebApp-main\\Project3\\static\\css\\webflow.css",
+              "RelativeToolTip": "Project3\\static\\css\\webflow.css",
+              "ViewState": "AgIAAI8EAAAAAAAAAAAAABEHAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-05T20:22:56.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "normalize.css",
+              "DocumentMoniker": "C:\\Users\\steve\\source\\repos\\ExpenseWebApp-main\\Project3\\static\\css\\normalize.css",
+              "RelativeDocumentMoniker": "Project3\\static\\css\\normalize.css",
+              "ToolTip": "C:\\Users\\steve\\source\\repos\\ExpenseWebApp-main\\Project3\\static\\css\\normalize.css",
+              "RelativeToolTip": "Project3\\static\\css\\normalize.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-05T20:21:46.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "cop4813-webdev-project3.webflow.css",
+              "DocumentMoniker": "C:\\Users\\steve\\source\\repos\\ExpenseWebApp-main\\Project3\\static\\css\\cop4813-webdev-project3.webflow.css",
+              "RelativeDocumentMoniker": "Project3\\static\\css\\cop4813-webdev-project3.webflow.css",
+              "ToolTip": "C:\\Users\\steve\\source\\repos\\ExpenseWebApp-main\\Project3\\static\\css\\cop4813-webdev-project3.webflow.css",
+              "RelativeToolTip": "Project3\\static\\css\\cop4813-webdev-project3.webflow.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-05T20:20:07.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "addExpenses.html",
               "DocumentMoniker": "C:\\Users\\steve\\source\\repos\\ExpenseWebApp-main\\Project3\\templates\\addExpenses.html",
               "RelativeDocumentMoniker": "Project3\\templates\\addExpenses.html",
@@ -55,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "expenseAdded.html",
               "DocumentMoniker": "C:\\Users\\steve\\source\\repos\\ExpenseWebApp-main\\Project3\\templates\\expenseAdded.html",
               "RelativeDocumentMoniker": "Project3\\templates\\expenseAdded.html",
@@ -68,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "register.html",
               "DocumentMoniker": "C:\\Users\\steve\\source\\repos\\ExpenseWebApp-main\\Project3\\templates\\register.html",
               "RelativeDocumentMoniker": "Project3\\templates\\register.html",
@@ -81,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "login.html",
               "DocumentMoniker": "C:\\Users\\steve\\source\\repos\\ExpenseWebApp-main\\Project3\\templates\\login.html",
               "RelativeDocumentMoniker": "Project3\\templates\\login.html",
@@ -94,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "template.html",
               "DocumentMoniker": "C:\\Users\\steve\\source\\repos\\ExpenseWebApp-main\\Project3\\templates\\template.html",
               "RelativeDocumentMoniker": "Project3\\templates\\template.html",
@@ -113,7 +181,7 @@
               "RelativeDocumentMoniker": "Project3\\app.py",
               "ToolTip": "C:\\Users\\steve\\source\\repos\\ExpenseWebApp-main\\Project3\\app.py",
               "RelativeToolTip": "Project3\\app.py",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAAABsAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABsAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
               "WhenOpened": "2025-05-04T16:35:01.185Z",
               "EditorCaption": ""
