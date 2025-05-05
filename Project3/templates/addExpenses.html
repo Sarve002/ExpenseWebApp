@@ -1,31 +1,66 @@
 {% extends "template.html" %}
 {% block content %}
 
-  <header id="hero" class="hero">
-      <a href="{{ url_for('index') }}" class="button-8 w-button">Back to Homepage</a>
-
-<br><br><br>
+<header id="hero" class="hero">
     <div class="flex-container w-container">
-      <div>
-        <form method="post">
-        {{ form.csrf_token() }}
-            <p> Description:
-                {{ form.description() }}
-            </p>
-            <p>Category:
-                {{form.category}}
-            </p>
-            <p>Cost:
-                {{form.cost}}
-            </p>
-            <p>Date:
-                {{form.date}}
-            </p>
-        <input value="Submit" class="button-8 w-button" type="submit">
-    </form>
-      </div>
-    </div>
+        <div>
+            <a href="{{ url_for('index') }}" class="button-8 w-button">Back to Homepage</a>
+            <h1>Add an Expense</h1>
+            <form method="post" class="expense-form">
+                {{ form.csrf_token() }}
 
-  </header>
+                <div class="form-group">
+                    <label for="description">Description:</label>
+                    {{ form.description(class="input-field") }}
+                    {% if form.description.errors %}
+                    <div class="error-message">
+                        {% for error in form.description.errors %}
+                        <p>{{ error }}</p>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+                </div>
+
+                <div class="form-group">
+                    <label for="category">Category:</label>
+                    {{ form.category(class="input-field") }}
+                    {% if form.category.errors %}
+                    <div class="error-message">
+                        {% for error in form.category.errors %}
+                        <p>{{ error }}</p>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+                </div>
+
+                <div class="form-group">
+                    <label for="cost">Cost:</label>
+                    {{ form.cost(class="input-field") }}
+                    {% if form.cost.errors %}
+                    <div class="error-message">
+                        {% for error in form.cost.errors %}
+                        <p>{{ error }}</p>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+                </div>
+
+                <div class="form-group">
+                    <label for="date">Date:</label>
+                    {{ form.date(class="input-field") }}
+                    {% if form.date.errors %}
+                    <div class="error-message">
+                        {% for error in form.date.errors %}
+                        <p>{{ error }}</p>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+                </div>
+
+                <input value="Submit" class="button-8 w-button" type="submit">
+            </form>
+        </div>
+    </div>
+</header>
 
 {% endblock %}

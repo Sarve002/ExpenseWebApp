@@ -7,12 +7,24 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Project3\\app.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\steve\\source\\repos\\ExpenseWebApp-main\\Project3\\templates\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Project3\\templates\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\steve\\source\\repos\\ExpenseWebApp-main\\Project3\\templates\\template.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Project3\\templates\\template.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\steve\\source\\repos\\ExpenseWebApp-main\\Project3\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Project3\\.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\steve\\source\\repos\\ExpenseWebApp-main\\Project3\\templates\\login.html||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Project3\\templates\\login.html||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\steve\\source\\repos\\ExpenseWebApp-main\\Project3\\templates\\register.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Project3\\templates\\register.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\steve\\source\\repos\\ExpenseWebApp-main\\Project3\\templates\\expenseAdded.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Project3\\templates\\expenseAdded.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\steve\\source\\repos\\ExpenseWebApp-main\\Project3\\templates\\addExpenses.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Project3\\templates\\addExpenses.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,32 +34,75 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\steve\\source\\repos\\ExpenseWebApp-main\\Project3\\templates\\index.html",
-              "RelativeDocumentMoniker": "Project3\\templates\\index.html",
-              "ToolTip": "C:\\Users\\steve\\source\\repos\\ExpenseWebApp-main\\Project3\\templates\\index.html",
-              "RelativeToolTip": "Project3\\templates\\index.html",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAgwBYAAAAhAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "addExpenses.html",
+              "DocumentMoniker": "C:\\Users\\steve\\source\\repos\\ExpenseWebApp-main\\Project3\\templates\\addExpenses.html",
+              "RelativeDocumentMoniker": "Project3\\templates\\addExpenses.html",
+              "ToolTip": "C:\\Users\\steve\\source\\repos\\ExpenseWebApp-main\\Project3\\templates\\addExpenses.html",
+              "RelativeToolTip": "Project3\\templates\\addExpenses.html",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwEIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-05-04T17:37:15.906Z",
+              "WhenOpened": "2025-05-05T17:59:51.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "expenseAdded.html",
+              "DocumentMoniker": "C:\\Users\\steve\\source\\repos\\ExpenseWebApp-main\\Project3\\templates\\expenseAdded.html",
+              "RelativeDocumentMoniker": "Project3\\templates\\expenseAdded.html",
+              "ToolTip": "C:\\Users\\steve\\source\\repos\\ExpenseWebApp-main\\Project3\\templates\\expenseAdded.html",
+              "RelativeToolTip": "Project3\\templates\\expenseAdded.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-05-05T17:52:24.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "register.html",
+              "DocumentMoniker": "C:\\Users\\steve\\source\\repos\\ExpenseWebApp-main\\Project3\\templates\\register.html",
+              "RelativeDocumentMoniker": "Project3\\templates\\register.html",
+              "ToolTip": "C:\\Users\\steve\\source\\repos\\ExpenseWebApp-main\\Project3\\templates\\register.html",
+              "RelativeToolTip": "Project3\\templates\\register.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-05-05T17:24:42.229Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": ".env",
-              "DocumentMoniker": "C:\\Users\\steve\\source\\repos\\ExpenseWebApp-main\\Project3\\.env",
-              "RelativeDocumentMoniker": "Project3\\.env",
-              "ToolTip": "C:\\Users\\steve\\source\\repos\\ExpenseWebApp-main\\Project3\\.env",
-              "RelativeToolTip": "Project3\\.env",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-04T17:11:53.466Z",
+              "Title": "login.html",
+              "DocumentMoniker": "C:\\Users\\steve\\source\\repos\\ExpenseWebApp-main\\Project3\\templates\\login.html",
+              "RelativeDocumentMoniker": "Project3\\templates\\login.html",
+              "ToolTip": "C:\\Users\\steve\\source\\repos\\ExpenseWebApp-main\\Project3\\templates\\login.html",
+              "RelativeToolTip": "Project3\\templates\\login.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-05-05T17:24:09.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "template.html",
+              "DocumentMoniker": "C:\\Users\\steve\\source\\repos\\ExpenseWebApp-main\\Project3\\templates\\template.html",
+              "RelativeDocumentMoniker": "Project3\\templates\\template.html",
+              "ToolTip": "C:\\Users\\steve\\source\\repos\\ExpenseWebApp-main\\Project3\\templates\\template.html",
+              "RelativeToolTip": "Project3\\templates\\template.html",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAE4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-05-05T17:21:36.343Z",
               "EditorCaption": ""
             },
             {
@@ -58,7 +113,7 @@
               "RelativeDocumentMoniker": "Project3\\app.py",
               "ToolTip": "C:\\Users\\steve\\source\\repos\\ExpenseWebApp-main\\Project3\\app.py",
               "RelativeToolTip": "Project3\\app.py",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAAAF0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAABsAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
               "WhenOpened": "2025-05-04T16:35:01.185Z",
               "EditorCaption": ""
