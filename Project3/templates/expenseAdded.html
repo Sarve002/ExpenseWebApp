@@ -1,12 +1,14 @@
 {% extends "template.html" %}
 {% block content %}
-  <header id="hero" class="hero">
+
+<header id="hero" class="hero">
     <div class="flex-container w-container">
-      <div>
-        <p>Expense Added!</p>
-        <a href="{{ url_for('index') }}" class="button-8 w-button">Back to Homepage</a>
-      </div>
+        <div>
+            <h1>Expense Added Successfully!</h1>
+            <p>Your expense has been successfully recorded. You can now go back to your homepage or add another expense.</p>
+            <a href="{{ url_for('index') }}" class="button-8 w-button">Back to Homepage</a>
+        </div>
     </div>
-  </header>
+</header>
 
 {% endblock %}
