@@ -49,4 +49,4 @@ The ExpenseWebApp allows users to:
 
 You can watch a demo of the application here:
 
-View the demo here: "https://drive.google.com/file/d/1TBSGQfhaiyv_rTMHPazmVei8BG8vNEkF/preview" width="640" height="360" allow="autoplay"
+View the demo here: "https://drive.google.com/file/d/1TBSGQfhaiyv_rTMHPazmVei8BG8vNEkF/preview" 
