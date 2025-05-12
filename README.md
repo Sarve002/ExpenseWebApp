@@ -1,6 +1,6 @@
 # 💸 ExpenseWebApp
 
-A full-stack expense tracking application built with Flask, MongoDB, and Tailwind CSS. Users can add, view, and now **modify** or delete their expenses in a clean, responsive dashboard.
+A full-stack expense tracking application built with Flask, MongoDB, and Tailwind CSS. Users can add, view, and delete their expenses in a clean, responsive dashboard.
 
 ---
 
