@@ -1,0 +1,68 @@
+/* style.css — Custom Tweaks for ExpenseWebApp */
+
+/* General Typography */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+/* Hero Banner */
+.hero-banner {
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Section spacing */
+section {
+    margin-bottom: 2rem;
+}
+
+/* Form Enhancements */
+.form-label {
+    font-weight: 500;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="email"],
+input[type="password"],
+select {
+    border-radius: 6px;
+}
+
+/* Card Enhancements */
+.card {
+    border: none;
+    border-radius: 12px;
+}
+
+/* Buttons */
+.btn {
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover,
+.btn-success:hover,
+.btn-outline-success:hover,
+.btn-outline-secondary:hover {
+    filter: brightness(110%);
+}
+
+/* Alert box */
+.alert-success {
+    border-radius: 10px;
+    font-size: 1.1rem;
+}
+
+/* Table Styling */
+table th {
+    white-space: nowrap;
+}
