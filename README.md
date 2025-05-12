@@ -1,6 +1,6 @@
-﻿# 💰 ExpenseWebApp
+# 💸 ExpenseWebApp
 
-This is a personal finance tracking web app built using Python, Flask, and MongoDB. Originally developed for a web application development class, it has since been expanded with new features and improvements.
+A full-stack expense tracking application built with Flask, MongoDB, and Tailwind CSS. Users can add, view, and now **modify** or delete their expenses in a clean, responsive dashboard.
 
 ---
 
@@ -30,25 +30,50 @@ The ExpenseWebApp allows users to:
 - User input for expenses with date, cost, category, and description
 - Expenses stored in MongoDB and displayed dynamically
 - Responsive layout
-- UI enhancements (CSS updates and visual improvements)
+- UI enhancements using Tailwind UI (CSS updates and visual improvements)
 - Git-based version control and deployment workflow
+- Replaced Bootstrap and Webflow with Tailwind CSS
+- Mobile-friendly, clean layouts and consistent button styling
+- Darker striped table rows for clarity
+
+### 🖼️ Dynamic Page Banners
+Each page now includes a unique banner:
+- **Login/Register** → `login-banner.jpg`
+- **Dashboard** → `dashboard-bg.jpg`
+- **Add/Modify Expenses** → `expenses.jpg`
+
+### 🧩 Modify Expenses Page
+- New `modifyExpenses.html` page to review and delete expenses
+- Back button to dashboard
+- Stays on page after deleting
+
+### 🧭 Navigation Improvements
+- Added `Modify Expenses` to the navbar and dashboard buttons
+- Removed redundant expense table from dashboard
+
+---
+### Future Improvements
+- Edit expense functionality
+- Charts for spending by category
+- User profile settings
+- Deployment to Render or Fly.io
+---
+
+## 📸 Screenshots
+
+| Login Page with Banner             | Dashboard View with Add/Modify |
+|-----------------------------------|--------------------------------|
+| ![login](https://github.com/user-attachments/assets/f1fbf6d6-be7f-4aac-be2d-95b8e8787dbe) | ![dashboard](https://github.com/user-attachments/assets/1d2b86bf-0f1d-48a5-b47f-f3921a587469) |
+
+| ![modify](https://github.com/user-attachments/assets/15ae1ac1-651b-4d7f-8bde-e4ab93cbc4b5) | 
+
 
 ---
 
-## ⚙️ Setup & Installation
+## ⚙️ Setup Instructions
 
-1. **Clone the repository**
-2. **Install any needed dependencies**
-3. **Run Project**
-
-
-
-### Application Preview
-
-<img src='https://user-images.githubusercontent.com/70240636/194684267-8a7f50a8-9d65-46c2-a8db-26732226431e.PNG' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-### Application Walkthrough Video
-
-You can watch a demo of the application here:
-
-"https://drive.google.com/file/d/1TBSGQfhaiyv_rTMHPazmVei8BG8vNEkF/preview" 
+```bash
+git clone https://github.com/yourusername/ExpenseWebApp.git
+cd ExpenseWebApp
+pip install -r requirements.txt
+flask run
