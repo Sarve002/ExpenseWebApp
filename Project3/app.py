@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, redirect, url_for, flash
+from flask import Flask, render_template, request, redirect, url_for, flash, session
 from flask_login import LoginManager, login_user, login_required, logout_user, current_user
 from flask_bcrypt import Bcrypt
 from flask_pymongo import PyMongo
@@ -150,6 +150,7 @@ def register():
 def login():
     """
     Authenticates user credentials and starts the user session.
+    Session will expire when the browser is closed.
     """
     form = LoginForm()
     if form.validate_on_submit():
@@ -162,7 +163,13 @@ def login():
 
             if user_data and bcrypt.check_password_hash(user_data["password"], password):
                 user_obj = User(str(user_data["_id"]), user_data["username"])
+                
+                # Log the user in
                 login_user(user_obj)
+                
+                # Session will expire when browser is closed
+                session.permanent = False
+
                 flash("Logged in successfully.", "success")
                 return redirect(url_for("index"))
             else:
@@ -175,6 +182,7 @@ def login():
 
     return render_template("login.html", form=form)
 
+
 @app.route('/logout')
 @login_required
 def logout():
@@ -183,6 +191,7 @@ def logout():
     """
     logout_user()
     flash("You have been logged out.", "info")
+    session.clear()
     return redirect(url_for('index'))
 
 # from bson.objectid import ObjectId
@@ -194,24 +203,27 @@ def delete_expense(expense_id):
     Deletes a specific expense belonging to the current user.
     """
     try:
-        result = mongo.cx["db"]["expenses"].delete_one({
+        mongo.cx["db"]["expenses"].delete_one({
             "_id": ObjectId(expense_id),
             "user_id": current_user.id
         })
 
-        if result.deleted_count == 1:
-            print(f"Deleted expense with ID: {expense_id}")
-            flash("Expense deleted successfully.", "success")
-        else:
-            flash("Expense not found or not authorized.", "danger")
+        flash("Expense deleted successfully.", "success")
 
-        return redirect(url_for('index'))
+        # Redirect based on referer
+        referrer = request.referrer or url_for('index')
+        return redirect(referrer)
 
     except Exception as e:
-        print("Delete error:", e)
         flash("Error deleting expense.", "danger")
         return redirect(url_for('index'))
 
+@app.route('/modifyExpenses')
+@login_required
+def modifyExpenses():
+    myCol = mongo.cx["db"]["expenses"]
+    my_expenses = list(myCol.find({"user_id": current_user.id}))
+    return render_template("modifyExpenses.html", expense_list=my_expenses)
 
 
 
@@ -241,6 +253,19 @@ def addExpenses():
             return redirect(url_for("addExpenses"))
 
     return render_template("addExpenses.html", form=expensesForm)
+
+@app.route('/')
+def home():
+    if current_user.is_authenticated:
+        return redirect(url_for('index'))
+    else:
+        return redirect(url_for('login'))
+
+
+@app.context_processor
+def inject_user():
+    return dict(current_user=current_user)
+
 
 # --- Run App ---
 if __name__ == "__main__":

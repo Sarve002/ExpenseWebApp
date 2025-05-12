@@ -1,66 +1,54 @@
-{% extends "template.html" %}
+﻿{% extends "template.html" %}
+{% set banner_image = 'expenses.jpg' %}
+{% block page_title %}Add an Expense{% endblock %}
+
 {% block content %}
+<div class="max-w-lg mx-auto bg-white p-6 rounded-lg shadow-md">
+    <h2 class="text-2xl font-bold mb-6 text-center text-gray-800">Add an Expense</h2>
 
-<header id="hero" class="hero">
-    <div class="flex-container w-container">
+    <form method="POST" action="{{ url_for('addExpenses') }}" class="space-y-4">
+        {{ form.csrf_token() }}
+
+        <!-- Description -->
         <div>
-            <a href="{{ url_for('index') }}" class="button-8 w-button">Back to Homepage</a>
-            <h1>Add an Expense</h1>
-            <form method="post" class="expense-form">
-                {{ form.csrf_token() }}
-
-                <div class="form-group">
-                    <label for="description">Description:</label>
-                    {{ form.description(class="input-field") }}
-                    {% if form.description.errors %}
-                    <div class="error-message">
-                        {% for error in form.description.errors %}
-                        <p>{{ error }}</p>
-                        {% endfor %}
-                    </div>
-                    {% endif %}
-                </div>
-
-                <div class="form-group">
-                    <label for="category">Category:</label>
-                    {{ form.category(class="input-field") }}
-                    {% if form.category.errors %}
-                    <div class="error-message">
-                        {% for error in form.category.errors %}
-                        <p>{{ error }}</p>
-                        {% endfor %}
-                    </div>
-                    {% endif %}
-                </div>
-
-                <div class="form-group">
-                    <label for="cost">Cost:</label>
-                    {{ form.cost(class="input-field") }}
-                    {% if form.cost.errors %}
-                    <div class="error-message">
-                        {% for error in form.cost.errors %}
-                        <p>{{ error }}</p>
-                        {% endfor %}
-                    </div>
-                    {% endif %}
-                </div>
-
-                <div class="form-group">
-                    <label for="date">Date:</label>
-                    {{ form.date(class="input-field") }}
-                    {% if form.date.errors %}
-                    <div class="error-message">
-                        {% for error in form.date.errors %}
-                        <p>{{ error }}</p>
-                        {% endfor %}
-                    </div>
-                    {% endif %}
-                </div>
-
-                <input value="Submit" class="button-8 w-button" type="submit">
-            </form>
+            <label for="description" class="block text-sm font-medium text-gray-700">Description</label>
+            {{ form.description(class="w-full mt-1 px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring focus:ring-blue-200") }}
+            {% for error in form.description.errors %}
+            <p class="text-sm text-red-600 mt-1">{{ error }}</p>
+            {% endfor %}
         </div>
-    </div>
-</header>
 
+        <!-- Category -->
+        <div>
+            <label for="category" class="block text-sm font-medium text-gray-700">Category</label>
+            {{ form.category(class="w-full mt-1 px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring focus:ring-blue-200") }}
+            {% for error in form.category.errors %}
+            <p class="text-sm text-red-600 mt-1">{{ error }}</p>
+            {% endfor %}
+        </div>
+
+        <!-- Cost -->
+        <div>
+            <label for="cost" class="block text-sm font-medium text-gray-700">Cost</label>
+            {{ form.cost(class="w-full mt-1 px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring focus:ring-blue-200") }}
+            {% for error in form.cost.errors %}
+            <p class="text-sm text-red-600 mt-1">{{ error }}</p>
+            {% endfor %}
+        </div>
+
+        <!-- Date -->
+        <div>
+            <label for="date" class="block text-sm font-medium text-gray-700">Date</label>
+            {{ form.date(class="w-full mt-1 px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring focus:ring-blue-200") }}
+            {% for error in form.date.errors %}
+            <p class="text-sm text-red-600 mt-1">{{ error }}</p>
+            {% endfor %}
+        </div>
+
+        <!-- Submit Button -->
+        <div>
+            {{ form.submit(class="w-full bg-green-600 text-white py-2 px-4 rounded-md hover:bg-green-700 font-semibold") }}
+        </div>
+    </form>
+</div>
 {% endblock %}

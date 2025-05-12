@@ -1,14 +1,24 @@
 {% extends "template.html" %}
+{% set banner_image = 'expenses.jpg' %}
+{% block page_title %}Expense Added{% endblock %}
+
 {% block content %}
+<div class="max-w-xl mx-auto bg-white p-6 rounded-lg shadow-md text-center">
+    <h2 class="text-2xl font-bold text-green-600 mb-4">Expense Added Successfully!</h2>
+    <p class="text-gray-700 text-base mb-6">
+        Your expense has been recorded. You can return to your dashboard or add another expense.
+    </p>
 
-<header id="hero" class="hero">
-    <div class="flex-container w-container">
-        <div>
-            <h1>Expense Added Successfully!</h1>
-            <p>Your expense has been successfully recorded. You can now go back to your homepage or add another expense.</p>
-            <a href="{{ url_for('index') }}" class="button-8 w-button">Back to Homepage</a>
-        </div>
+    <div class="flex justify-center gap-4">
+        <a href="{{ url_for('index') }}"
+           class="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-4 py-2 rounded-md">
+            Back to Dashboard
+        </a>
+        <a href="{{ url_for('addExpenses') }}"
+           class="bg-green-600 hover:bg-green-700 text-white font-semibold px-4 py-2 rounded-md">
+            Add Another
+        </a>
     </div>
-</header>
-
+</div>
 {% endblock %}
+
