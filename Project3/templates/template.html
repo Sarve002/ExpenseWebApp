@@ -49,12 +49,23 @@
     </nav>
 
     <!-- Dynamic Banner via block content -->
-    <div class="h-[300px] flex items-center justify-center text-white text-center"
-         style="background: url('{{ url_for('static', filename='images/' ~ (banner_image | default("dashboard-bg.jpg")) ) }}') no-repeat center center; background-size: cover;">
-        <h1 class="text-4xl font-bold drop-shadow-lg">
+    <!-- Banner Section -->
+    <div class="relative h-[300px] flex items-center justify-center text-center overflow-hidden">
+        <!-- Background Image -->
+        <img src="{{ url_for('static', filename='images/' + (banner_image if banner_image is defined else 'dashboard-bg.jpg')) }}"
+             alt="Banner"
+             class="absolute inset-0 w-full h-full object-cover z-0" />
+
+
+        <!-- Optional dark overlay -->
+        <div class="absolute inset-0 bg-black bg-opacity-10 z-10"></div>
+
+        <!-- Banner Text -->
+        <h1 class="relative z-20 text-4xl font-bold text-white drop-shadow-md">
             {% block page_title %}Welcome to ExpenseWebApp{% endblock %}
         </h1>
     </div>
+
 
 
 
