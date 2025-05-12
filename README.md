@@ -37,7 +37,9 @@ The ExpenseWebApp allows users to:
 
 ## ⚙️ Setup & Installation
 
-1. **Clone the repository**  
+1. **Clone the repository**
+2. **Install any needed dependencies**
+3. **Run Project**
 
 
 
@@ -49,4 +51,4 @@ The ExpenseWebApp allows users to:
 
 You can watch a demo of the application here:
 
-<iframe src="https://drive.google.com/file/d/1TBSGQfhaiyv_rTMHPazmVei8BG8vNEkF/preview" width="640" height="480" allow="autoplay"></iframe>
+"https://drive.google.com/file/d/1TBSGQfhaiyv_rTMHPazmVei8BG8vNEkF/preview" 
